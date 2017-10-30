@@ -1,0 +1,192 @@
+2017-10-26 00:57:36,016[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 00:57:36,016[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 01:23:24,528[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 01:23:24,528[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 02:04:44,605[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 02:04:44,605[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 02:04:44,683[YYYY-MM-DD HH:MM:SS] INFO  true
+2017-10-26 03:17:25,869[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 03:17:25,869[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 03:17:26,026[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: The value is not set for the parameter number 5.
+2017-10-26 03:17:26,026[YYYY-MM-DD HH:MM:SS] INFO  false
+2017-10-26 03:17:47,428[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 03:17:47,428[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 03:17:47,475[YYYY-MM-DD HH:MM:SS] INFO  1 values updated
+2017-10-26 03:17:47,475[YYYY-MM-DD HH:MM:SS] INFO  true
+2017-10-26 04:16:55,858[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 04:16:55,874[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 04:16:55,922[YYYY-MM-DD HH:MM:SS] INFO  FileResource [fileid=1, filename=javafile, filecategory=java, fileauthor=pallavi, filesize=120MB]
+2017-10-26 04:20:54,579[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 04:20:54,580[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 04:25:05,309[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 04:25:05,309[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 04:25:05,356[YYYY-MM-DD HH:MM:SS] INFO  true
+2017-10-26 10:09:52,364[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 10:09:52,379[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 10:09:52,457[YYYY-MM-DD HH:MM:SS] INFO  true
+2017-10-26 11:01:04,127[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 11:01:04,143[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 11:01:04,143[YYYY-MM-DD HH:MM:SS] INFO  com.suggestion.model.PptResource@61f5df
+2017-10-26 11:02:28,803[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 11:02:28,803[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 11:02:28,803[YYYY-MM-DD HH:MM:SS] INFO  PptResource [pptid=0, pptname=phpppt, pptcategory=php, pptauthor=Jayashri, pptsize=12kb]
+2017-10-26 11:04:17,048[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 11:04:17,048[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 11:04:17,126[YYYY-MM-DD HH:MM:SS] INFO  true
+2017-10-26 21:40:51,336[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:40:51,367[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:40:51,524[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:40:51,524[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:41:56,206[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:41:56,206[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:41:56,237[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:41:56,237[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:42:15,568[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:42:15,568[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:42:15,599[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:42:15,599[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:44:00,180[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:44:00,180[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:44:00,227[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:44:00,227[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:44:44,499[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:44:44,515[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:44:44,547[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:44:44,547[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:45:29,194[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:45:29,194[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:45:29,225[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:45:29,225[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:46:19,374[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:46:19,374[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:46:19,405[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:46:19,405[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:47:46,594[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:47:46,594[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:47:46,641[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:47:46,641[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:48:03,606[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:48:03,606[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:48:03,637[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: The index 1 is out of range.
+2017-10-26 21:48:03,637[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:48:24,162[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:48:24,162[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:48:24,193[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:48:24,193[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:51:49,920[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:51:49,920[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:51:49,967[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:51:49,967[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:52:00,436[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:52:00,436[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:52:00,467[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:52:00,467[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:52:37,753[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:52:37,768[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:52:37,784[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: The index 1 is out of range.
+2017-10-26 21:52:37,784[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:53:24,254[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:53:24,254[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:53:24,301[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:53:24,301[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:56:49,764[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:56:49,780[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:56:49,811[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:56:49,811[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:59:00,639[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:59:00,639[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:59:00,732[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:59:00,732[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:59:35,341[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:59:35,341[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:59:35,388[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:59:35,388[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 21:59:56,350[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:59:56,350[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 21:59:56,381[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 21:59:56,381[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:08:41,921[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:08:41,921[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:08:41,952[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: Incorrect syntax near '='.
+2017-10-26 22:08:41,952[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:10:04,470[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:10:04,470[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:10:04,517[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:12:50,555[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:12:50,555[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:12:50,602[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:13:22,586[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:13:22,601[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:13:22,695[YYYY-MM-DD HH:MM:SS] INFO  FileResource [fileid=1, filename=javafile, filecategory=java, fileauthor=pallavi, filesize=120MB]
+2017-10-26 22:13:22,695[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:14:50,346[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:14:50,346[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:14:50,392[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:15:43,751[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:15:43,751[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:15:43,798[YYYY-MM-DD HH:MM:SS] INFO  FileResource [fileid=2, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]
+2017-10-26 22:15:43,798[YYYY-MM-DD HH:MM:SS] INFO  FileResource [fileid=3, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]
+2017-10-26 22:15:43,798[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:16:13,483[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:16:13,483[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:16:13,530[YYYY-MM-DD HH:MM:SS] INFO  FileResource [fileid=3, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]
+2017-10-26 22:16:13,530[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:16:27,109[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:16:27,109[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:16:27,171[YYYY-MM-DD HH:MM:SS] INFO  FileResource [fileid=3, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]
+2017-10-26 22:16:27,171[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-26 22:17:43,941[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:17:43,941[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:17:44,019[YYYY-MM-DD HH:MM:SS] INFO  FileResource [fileid=3, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]
+2017-10-26 22:23:06,468[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:23:06,468[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-26 22:23:06,515[YYYY-MM-DD HH:MM:SS] INFO  [FileResource [fileid=2, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB], FileResource [fileid=3, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]]
+2017-10-27 11:27:55,357[YYYY-MM-DD HH:MM:SS] ERROR java.io.FileNotFoundException: db.properties (The system cannot find the file specified)
+2017-10-27 11:27:55,389[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-27 11:27:55,420[YYYY-MM-DD HH:MM:SS] ERROR java.io.FileNotFoundException: db.properties (The system cannot find the file specified)
+2017-10-27 11:27:55,436[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-27 11:27:55,436[YYYY-MM-DD HH:MM:SS] INFO  []
+2017-10-27 11:29:14,877[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-27 11:29:14,877[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-27 11:29:15,174[YYYY-MM-DD HH:MM:SS] INFO  [FileResource [fileid=2, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB], FileResource [fileid=3, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]]
+2017-10-28 00:09:00,038[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-28 00:09:00,038[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-28 00:09:00,163[YYYY-MM-DD HH:MM:SS] INFO  [FileResource [fileid=2, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB], FileResource [fileid=3, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]]
+2017-10-28 00:29:11,499[YYYY-MM-DD HH:MM:SS] ERROR java.io.FileNotFoundException: com\suggestion\dbconn\db.properties (The system cannot find the path specified)
+2017-10-28 00:29:11,499[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-28 00:29:11,515[YYYY-MM-DD HH:MM:SS] ERROR java.io.FileNotFoundException: com\suggestion\dbconn\db.properties (The system cannot find the path specified)
+2017-10-28 00:29:11,515[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:29:11,515[YYYY-MM-DD HH:MM:SS] INFO  []
+2017-10-28 00:30:30,180[YYYY-MM-DD HH:MM:SS] ERROR java.io.FileNotFoundException: com\suggestion\dbconn\db.properties (The system cannot find the path specified)
+2017-10-28 00:30:30,180[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-28 00:30:30,182[YYYY-MM-DD HH:MM:SS] ERROR java.io.FileNotFoundException: com\suggestion\dbconn\db.properties (The system cannot find the path specified)
+2017-10-28 00:30:30,183[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:30:30,183[YYYY-MM-DD HH:MM:SS] INFO  []
+2017-10-28 00:31:17,193[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:31:17,193[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-28 00:31:17,193[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:31:17,193[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:31:17,193[YYYY-MM-DD HH:MM:SS] INFO  []
+2017-10-28 00:31:32,182[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:31:32,198[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-28 00:31:32,198[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:31:32,198[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:31:32,198[YYYY-MM-DD HH:MM:SS] INFO  []
+2017-10-28 00:32:48,803[YYYY-MM-DD HH:MM:SS] ERROR java.io.FileNotFoundException: com\suggestion\dbconn\db.properties (The system cannot find the path specified)
+2017-10-28 00:32:48,803[YYYY-MM-DD HH:MM:SS] INFO  
+2017-10-28 00:32:48,803[YYYY-MM-DD HH:MM:SS] ERROR java.io.FileNotFoundException: com\suggestion\dbconn\db.properties (The system cannot find the path specified)
+2017-10-28 00:32:48,803[YYYY-MM-DD HH:MM:SS] ERROR java.lang.NullPointerException
+2017-10-28 00:32:48,803[YYYY-MM-DD HH:MM:SS] INFO  []
+2017-10-28 00:35:32,519[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-28 00:35:32,519[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-28 00:35:32,567[YYYY-MM-DD HH:MM:SS] INFO  [FileResource [fileid=2, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB], FileResource [fileid=3, filename=phpfile, filecategory=php, fileauthor=jayashri, filesize=120MB]]
+2017-10-29 10:24:04,966[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-29 10:24:05,049[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-29 10:24:05,090[YYYY-MM-DD HH:MM:SS] INFO  set
+2017-10-29 10:24:05,103[YYYY-MM-DD HH:MM:SS] ERROR com.microsoft.sqlserver.jdbc.SQLServerException: An explicit value for the identity column in table 'SuggestionUser' can only be specified when a column list is used and IDENTITY_INSERT is ON.
+2017-10-29 10:24:05,104[YYYY-MM-DD HH:MM:SS] INFO  false
+2017-10-29 10:30:03,161[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-29 10:30:03,162[YYYY-MM-DD HH:MM:SS] INFO  ConnectionID:1
+2017-10-29 10:30:03,187[YYYY-MM-DD HH:MM:SS] INFO  set
+2017-10-29 10:30:03,205[YYYY-MM-DD HH:MM:SS] INFO  added
+2017-10-29 10:30:03,205[YYYY-MM-DD HH:MM:SS] INFO  true
