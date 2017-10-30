@@ -34,7 +34,7 @@ public class HomeController extends HttpServlet {
 		
 		if(action.equals("Login as Admin"))
 		{
-			RequestDispatcher rd=request.getRequestDispatcher("/AdminLoginController");
+			RequestDispatcher rd=request.getRequestDispatcher("AdminLogin.jsp");
 			rd.forward(request, response);
 		}
 		
@@ -58,6 +58,48 @@ public class HomeController extends HttpServlet {
 		{
 			RequestDispatcher rd=request.getRequestDispatcher("/UserSetCookiesController");
 			rd.forward(request, response);
+		}
+		else if(action.equals("Logout"))
+		{
+			RequestDispatcher rd=request.getRequestDispatcher("/UserLogoutController");
+			rd.forward(request, response);
+		}
+		
+		else if(action.equals("Admin Login"))
+		{
+			RequestDispatcher fr=request.getRequestDispatcher("/AdminLoginController");
+			fr.forward(request, response);
+		}
+		else if(action.equals("Insert File"))
+		{
+			RequestDispatcher fr=request.getRequestDispatcher("AddFileResource.jsp");
+			fr.forward(request, response);
+		}
+		else if(action.equals("Insert Ppt"))
+		{
+			RequestDispatcher fr=request.getRequestDispatcher("AddPptResource.jsp");
+			fr.forward(request, response);
+		}
+		else if(action.equals("Insert Pdf"))
+		{
+			RequestDispatcher fr=request.getRequestDispatcher("AddPdfResource.jsp");
+			fr.forward(request, response);
+		}
+		else if(action.equals("Insert File Resource"))
+		{
+			RequestDispatcher fr=request.getRequestDispatcher("/AddFileResourceController");
+			fr.forward(request, response);
+		}
+
+		else if(action.equals("Insert Pdf Resource"))
+		{
+			RequestDispatcher fr=request.getRequestDispatcher("/AddPdfResourceController");
+			fr.forward(request, response);
+		}
+		else if(action.equals("Insert Ppt Resource"))
+		{
+			RequestDispatcher fr=request.getRequestDispatcher("/AddPptResourceController");
+			fr.forward(request, response);
 		}
 		
 		

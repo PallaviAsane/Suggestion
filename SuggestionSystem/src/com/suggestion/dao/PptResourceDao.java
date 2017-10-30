@@ -11,11 +11,7 @@ import java.util.ArrayList;
 import org.apache.log4j.Logger;
 
 import com.suggestion.dbconn.DbConnection;
-import com.suggestion.model.FileResource;
 import com.suggestion.model.PptResource;
-
-import static com.suggestion.model.FileResource.FILECATEGORY;
-import static com.suggestion.model.FileResource.TABLENAME;
 import static com.suggestion.model.PptResource.*;
 /**
  * PptResourceDao is class to communicate with database and perform operations as insert,update,select,delete
@@ -36,10 +32,10 @@ public class PptResourceDao {
 			+ PPTNAME + "=? " + "," + PPTCATEGORY + "=? " + "," + PPTAUTHOR
 			+ "=? " + "," + PPTSIZE + "=? " + " where " + PPTID + "=?";
 
-	private static String getFileByCategory="Select * from " + TABLENAME + " where "
-			+ FILECATEGORY + " = ? ";
+	private static String getpptByCategory="Select * from " + TABLENAME + " where "
+			+ PPTCATEGORY + " = ? ";
 	/**
-	 * addFileResource method for insert data into database table
+	 * addPptResource method for insert data into database table
 	 *
 	 * @param pptresurce  PptResorce reference variable
 	 * @param satement object of prepared statement
@@ -80,7 +76,7 @@ public class PptResourceDao {
 	}// addPptResource method
 
 	/**
-	 * updateFileResource method update the data in database table
+	 * updatePptResource method update the data in database table
 	 * @param pptresurce PptResorce reference variable
 	 * @param statement object of prepared statement
 	 * @param pptid update according to PPT id
@@ -126,7 +122,7 @@ public class PptResourceDao {
 	}// method updatePptResource
 	
 	/**
-	 * getAllFileResource method get all list of PPT resource
+	 * getAllPptResource method get all list of PPT resource
 	 * @param pptreource FileResorce reference variable
 	 * @param statement Prepared statement object
 	 * @param pptid select PPT id
@@ -215,7 +211,7 @@ public class PptResourceDao {
 		PptResource pptresource=new PptResource();
 		ArrayList<PptResource> listbycategory=new ArrayList<PptResource>();
 		try{
-			PreparedStatement statement=connection.prepareStatement(getFileByCategory);
+			PreparedStatement statement=connection.prepareStatement(getpptByCategory);
 //			logger.debug(statement);
 			statement.setString(1,Category);
 			ResultSet resultset=statement.executeQuery();

@@ -4,17 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Home Page</title>
+<title>Insert title here</title>
 </head>
 <body>
-<%
-response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate");
-response.setHeader("Pragma", "no-cache");
-%>
-<form action="HomeController" method="get">
-<input type="submit" value="Login as Admin" name="submit">
+<form action="HomeController" method="post">
 
-<input type="submit" value="Login as User" name="submit">
+AdminName<input type="text" name="adminname"  placeholder="Name of Admin"><br>
+<br>
+Password <input type="password" name="password" placeholder="password"><br>
+<br>
+<br>
+<input type="submit" name="submit"  value="Admin Login">
+
 
 </form>
 </body>

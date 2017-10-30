@@ -48,6 +48,13 @@
 </style>
 </head>
 <body>
+<%
+response.setHeader("Cache-Control", "no-cache,no-store,must-revalidate");
+response.setHeader("Pragma", "no-cache");
+%>
+<form action="HomeController" method="post">
+<input type="submit" value="Logout" name="submit">
+</form>
 <form action="HomeController" method="post">
 <h3 align="right">
 Welcome
@@ -55,12 +62,6 @@ Welcome
 String username = (String) request.getSession().getAttribute("name");
 out.print(username);
 %>
-</h3>
-<h3 slign="right">Logout
-<%HttpSession logout=request.getSession();  
-logout.invalidate();  
-
-out.print("You are successfully logged out!");   %>
 </h3>
 <div align="center">
 <input type="text" name="resourcename" placeholder="Search">

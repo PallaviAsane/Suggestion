@@ -22,7 +22,7 @@ public class AdminDao {
 	private static String getAllQuery = "select * from Admin";
 	private static String updateQuery = "update Admin set  adminname = ?, where adminid = ?";
 	
-	public static int addAdmin(Admin admin) throws IOException {
+	public static int addAdmin(Admin admin){
 		
 		try {
 			PreparedStatement statement = conn.prepareStatement(addQuery);
@@ -54,7 +54,7 @@ public class AdminDao {
 	 *
 	 */
 	
-	public static Admin getAdmin(int adminid) throws IOException {
+	public static Admin getAdmin(int adminid)  {
 		//conn = DBConnection.getConnection();
 
 		try {
@@ -88,16 +88,16 @@ public class AdminDao {
 	 * 
 	 *
 	 */
-	public static List<Admin> getAdmin() throws IOException, SQLException {
+	public static List<Admin> getAdmin()  {
 		//conn = DBConnection.getConnection();
-		Statement statement = conn.createStatement();
-		ResultSet resultSet = statement.executeQuery(getAllQuery);
+		
 
 		Admin admin = null;
 		List<Admin> listOfproducts = new ArrayList<Admin>();
 
 		try {
-
+			Statement statement = conn.createStatement();
+			ResultSet resultSet = statement.executeQuery(getAllQuery);
 			while (resultSet.next()) {
 				//User user = new User();
 				int adminId = resultSet.getInt(1);
@@ -129,7 +129,7 @@ public class AdminDao {
 	 * 
 	 *
 	 */
-	public static int deleteUser(int adminId) throws IOException {
+	public static int deleteUser(int adminId)  {
 		//conn = DBConnection.getConnection();
 		PreparedStatement statement;
 		try {
@@ -156,7 +156,7 @@ public class AdminDao {
 	 * 
 	 *
 	 */
-	public static int updateAdmin(int userId, String username,String password) throws IOException {
+	public static int updateAdmin(int userId, String username,String password)  {
 		//conn= DBConnection.getConnection();
 		PreparedStatement statement;
 		try {

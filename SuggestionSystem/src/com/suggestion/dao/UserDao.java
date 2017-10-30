@@ -32,11 +32,14 @@ public class UserDao {
 			+ " values (?,?)";
 	private static String deleteQuery = "delete from " + TABLENAME + " where "
 			+ USERID + "=?";
-	private static String getOneQuery = "select * from " + TABLENAME + " where "
-			+ USERID + "= ?";
+	private static String getOneQuery = "select * from " + TABLENAME
+			+ " where " + USERID + "= ?";
 	private static String getAllQuery = "select * from " + TABLENAME;
 	private static String updateQuery = "update " + TABLENAME + " set "
-			+ USERNAME + "=?" + USERPASSWORD + "=?" + " where " + USERID + " = ?";
+			+ USERNAME + "=?" + USERPASSWORD + "=?" + " where " + USERID
+			+ " = ?";
+	private static String getuserQuery = "select * from " + TABLENAME
+			+ " where " + USERNAME + "= ? AND " + USERPASSWORD + " = ?";
 
 	/**
 	 * 
@@ -126,9 +129,9 @@ public class UserDao {
 	 * 
 	 *
 	 */
-	public static List<User> getUser(User user) {
+	public static ArrayList<User> getUser(User user) {
 		// conn = DBConnection.getConnection();
-		List<User> listOfproducts = new ArrayList<User>();
+		ArrayList<User> listOfproducts = new ArrayList<User>();
 
 		try {
 			Statement statement = connection.createStatement();
@@ -208,12 +211,9 @@ public class UserDao {
 
 			int resultUpdate = statement.executeUpdate();
 
-			if (resultUpdate>0)
-			{
+			if (resultUpdate > 0) {
 				return true;
-			}
-			else
-			{
+			} else {
 				return false;
 			}
 
@@ -222,6 +222,27 @@ public class UserDao {
 			logger.error(e);
 		}
 		return false;
+	}// update user method
+
+	public static int getUser(String username, String password) {
+		// conn= DBConnection.getConnection();
+		int userid=0;
+		PreparedStatement statement;
+		try {
+			statement = connection.prepareStatement(getuserQuery);
+			statement.setString(1, username);
+			statement.setString(2, password);
+
+			ResultSet resultset = statement.executeQuery();
+			while (resultset.next()) {
+				 userid = resultset.getInt(1);
+			}
+			return userid;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			logger.error(e);
+		}
+		return userid;
 	}// update user method
 
 }

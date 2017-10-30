@@ -1,6 +1,6 @@
 package com.suggestion.model;
 
-public class Cookies {
+public class Suggestion {
 
 	public static final String TABLENAME = "Cookies";
 	public static final String COOKIEID = "cookieid";
@@ -12,20 +12,20 @@ public class Cookies {
 	private String cookiename;// password of user
 	private int userid;
 	
-	public Cookies(int cookieid, String cookiename, int userid) {
+	public Suggestion(int cookieid, String cookiename, int userid) {
 		super();
 		this.cookieid = cookieid;
 		this.cookiename = cookiename;
 		this.userid = userid;
 	}
 	
-	public Cookies(String cookiename, int userid) {
+	public Suggestion(String cookiename, int userid) {
 		super();
 		this.cookiename = cookiename;
 		this.userid = userid;
 	}
 
-	public Cookies() {
+	public Suggestion() {
 		super();
 	}
 

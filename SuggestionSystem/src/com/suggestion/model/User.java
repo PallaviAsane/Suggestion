@@ -35,6 +35,15 @@ public class User {
 	public User() {
 		super();
 	}
+	
+
+	/**
+	 * @param userid
+	 */
+	public User(int userid) {
+		super();
+		this.userid = userid;
+	}
 
 	public int getUserid() {
 		return userid;

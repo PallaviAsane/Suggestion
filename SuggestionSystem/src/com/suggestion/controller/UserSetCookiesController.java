@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.suggestion.InterfaceServiceImpliment.CookiesServiceImplement;
-import com.suggestion.model.Cookies;
+import com.suggestion.InterfaceServiceImpliment.SuggestionServiceImplement;
+import com.suggestion.model.Suggestion;
 
 /**
  * Servlet implementation class UserSetCookiesController
@@ -38,16 +38,51 @@ public class UserSetCookiesController extends HttpServlet {
 		PrintWriter out=response.getWriter();
 		response.setContentType("text/html");
 		String resourcename=request.getParameter("resourcename");
-//		String usercookie=(String) request.getSession().getAttribute("usercookie");
+		String userid=(String) request.getSession().getAttribute("userid");
 		
-		Cookie usercookie[]=request.getCookies();
-		int cookieid=Integer.parseInt(usercookie[1].getValue());
-		CookiesServiceImplement cookieservice=new CookiesServiceImplement();
-		Cookies cookie=new Cookies(cookieid, resourcename,cookieid);
-		boolean addcookie=cookieservice.addCookies(cookie);
-		HttpSession resourcesession=request.getSession(true);
-		resourcesession.setAttribute("resourcename", resourcename);
-		RequestDispatcher rd=request.getRequestDispatcher("/JavaResourceController");
+		Cookie usercookie=new Cookie("suggestion" , resourcename);//creating cookie object  
+	    response.addCookie(usercookie);
+	    RequestDispatcher rd=request.getRequestDispatcher("GetSuggestionController");
+		rd.forward(request, response);
+
+//	    out.print(usercookie);
+//		Cookie usercookies[]=request.getCookies();
+//		int cookieid=Integer.parseInt(usercookies[1].getValue());
+//		for(int i=0;i<usercookies.length;i++) 
+//			 out.print("i is::"+i+"<br>"+usercookies[i].getName()+" "+usercookies[i].getValue());//printing name and value of cookie
+//			 out.print(usercookies[1].getValue());
+//		if(usercookies[1].getValue().contains("java"))
+//			 {
+////				out.print(true); 
+//			 RequestDispatcher rd=request.getRequestDispatcher("JavaResourceController");
+//			rd.forward(request, response);
+//			 }
+//			 else if(usercookies[1].getValue().contains("php"))
+//			 {
+//			 RequestDispatcher rd=request.getRequestDispatcher("PhpResourceController");
+//			rd.forward(request, response);
+//			 }
+//			}  
+//		out.print(usercookies);
+//		CookiesServiceImplement cookieservice=new CookiesServiceImplement();
+//		Cookies getcookie=cookieservice.getCookies(cookieid);
+//		
+//		HttpSession resourcesession=request.getSession(true);
+//		if(cookieid==getcookie.getCookieid())
+//		{
+//			
+//			String resource=getcookie.getCookiename();
+//			resourcesession.setAttribute("resourcename", resource);
+////			RequestDispatcher rd=request.getRequestDispatcher("/JavaResourceController");
+////			rd.forward(request, response);
+//		}
+//		else{
+//			Cookies cookie=new Cookies(cookieid, resourcename,cookieid);
+//			boolean addcookie=cookieservice.addCookies(cookie);
+//		resourcesession.setAttribute("resourcename", resourcename);
+////		RequestDispatcher rd=request.getRequestDispatcher("/JavaResourceController");
+////		rd.forward(request, response);
+//		}
 		
 		
 		

@@ -2,6 +2,7 @@ package com.suggestion.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -43,10 +44,14 @@ public class UserRegistrationController extends HttpServlet {
 		if(password.equals(confirmpassword))
 		{
 		UserInterfaceService userservice=new UserInterfaceService();
-		User user=new User(username,password);
-		boolean adduser=userservice.addUser(user);
+		
+				User user=new User(username,password);
+				boolean adduser=userservice.addUser(user);	
+		
+		
 		if(adduser==true)
 		{
+//			out.print(adduser);
 		RequestDispatcher rd=request.getRequestDispatcher("UserLogin.jsp");
 		rd.forward(request, response);
 		}
@@ -58,7 +63,7 @@ public class UserRegistrationController extends HttpServlet {
 
 		}
 		else{
-			out.print("Password and confirm password not match");
+//			out.print("Password and confirm password not match");
 			RequestDispatcher rd=request.getRequestDispatcher("UserRegistration.jsp");
 			rd.include(request, response);
 			

@@ -1,6 +1,6 @@
 package com.suggestion.InterfaceServiceImpliment;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import com.suggestion.dao.UserDao;
 import com.suggestion.daointerface.UserInterface;
@@ -23,9 +23,9 @@ public class UserInterfaceService implements UserInterface{
 	}
 
 	@Override
-	public List<User> getUser(User user) {
+	public ArrayList<User> getUser(User user) {
 		// TODO Auto-generated method stub
-		List<User> listuser=UserDao.getUser(user);
+		ArrayList<User> listuser=UserDao.getUser(user);
 		return listuser;
 	}
 
@@ -41,6 +41,13 @@ public class UserInterfaceService implements UserInterface{
 		// TODO Auto-generated method stub
 		boolean update=UserDao.updateUser(user);
 		return update;
+	}
+
+	@Override
+	public int getUser(String username, String password) {
+		// TODO Auto-generated method stub
+		int getuser=UserDao.getUser(username, password);
+		return getuser;
 	}
 
 }
