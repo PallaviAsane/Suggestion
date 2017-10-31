@@ -1,10 +1,13 @@
 package com.suggestion.dao;
 
 import static com.suggestion.model.Suggestion.*;
+
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
+
 import org.apache.log4j.Logger;
+
 import com.suggestion.dbconn.DbConnection;
 import com.suggestion.model.Suggestion;
 
@@ -26,6 +29,13 @@ import com.suggestion.model.Suggestion;
 
 		private static String updateFileQuery = "update " + TABLENAME + " set "
 				+ COOKIENAME + "=? "  + " where " + COOKIEID + "=?";
+		/**
+		 * Add cookies method add suggestion into Cookies table
+		 * @param cookies
+		 * @throws NullPointerException
+	     * @throws SQLException
+		 * @return boolean
+		 */
 
 		public static boolean addCookies(Suggestion cookies)  {
 		
@@ -54,7 +64,13 @@ import com.suggestion.model.Suggestion;
 			}
 			return false;
 		}
-
+		/**
+		 * Update cookies method update suggestion to Cookies table
+		 * @param cookies
+		 * @throws NullPointerException
+	     * @throws SQLException
+		 * @return boolean
+		 */
 		public static boolean updateCookies(Suggestion cookies) {
 			try {
 				PreparedStatement statement = connection.prepareStatement(updateFileQuery);
@@ -79,9 +95,16 @@ import com.suggestion.model.Suggestion;
 			}
 			return false;
 		}
+		/**
+		 * get cookies method get suggestion to Cookies(suggestion) table
+		 * @param cookies
+		 * @throws NullPointerException
+	     * @throws SQLException
+		 * @return suggestion
+		 */
 		
 		public static ArrayList<Suggestion> getsCookies(Suggestion cookies) {
-			ArrayList<Suggestion> fileresourcelist=new ArrayList<Suggestion>();
+			ArrayList<Suggestion> suggestionlist=new ArrayList<Suggestion>();
 			try{
 				PreparedStatement statement=connection.prepareStatement(getFilesQuery);
 				ResultSet resultset=statement.executeQuery();
@@ -93,13 +116,19 @@ import com.suggestion.model.Suggestion;
 					
 					
 					cookies=new Suggestion(cookieid,cookiesname,userid);
-					fileresourcelist.add(cookies);
+					suggestionlist.add(cookies);
 				}
 				
 			}catch(Exception e){System.out.println(e);}
-			return fileresourcelist;
+			return suggestionlist;
 		}
-		
+		/**
+		 * get cookies method get suggestion from Cookies(suggestion) table
+		 * @param fileid
+		 * @throws NullPointerException
+	     * @throws SQLException
+		 * @return cookies
+		 */
 		public static Suggestion getCookies(int fileid) {
 			Suggestion cookies=new Suggestion();
 			try{
@@ -118,7 +147,7 @@ import com.suggestion.model.Suggestion;
 				
 			}catch(Exception e){System.out.println(e);}
 			return cookies;
-		}
+		}//getCookies
 	
 	
-}
+}//class
