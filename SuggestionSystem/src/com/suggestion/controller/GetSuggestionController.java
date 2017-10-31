@@ -25,6 +25,7 @@ public class GetSuggestionController extends HttpServlet {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		doPost(request,response);
 	}
 
 	/**
@@ -54,7 +55,7 @@ public class GetSuggestionController extends HttpServlet {
 					.getRequestDispatcher("JavaResourceController");
 			rd.forward(request, response);
 		} else if (usercookies[index].getValue().equalsIgnoreCase("php")) {
-			 out.print("else"+usercookies[index].getValue());
+//			 out.print("else"+usercookies[index].getValue());
 						RequestDispatcher rd = request
 					.getRequestDispatcher("PhpResourceController");
 			rd.forward(request, response);
